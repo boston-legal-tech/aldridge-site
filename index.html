@@ -75,20 +75,6 @@
 				color: #cfb892;
 				margin-bottom: 0.25em;
 			}
-			.advertising-disclaimer {
-				font-size: 0.75em;
-				opacity: 0.55;
-				margin-top: 2em;
-			}
-			.form-note {
-				font-size: 0.85em;
-				color: rgba(255,255,255,0.55);
-				margin-top: 1em;
-			}
-			.form-note a {
-				color: #cfb892;
-				border-bottom-color: rgba(207,184,146,0.35);
-			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -241,7 +227,6 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Contact the firm</h2>
-							<p>The firm is open weekdays, 8:30am to 6:00pm. For new matters, please email the firm directly. We respond to inquiries within one business day.</p>
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
@@ -271,12 +256,13 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-								<p class="form-note">To get in touch with Aldridge Counsel, please email <a href="mailto:contact@aldridgecounsel.com">contact@aldridgecounsel.com</a>. Replies typically come within one business day.</p>
 							</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
 									Aldridge Counsel<br />
-									Boston, Massachusetts
+									265 Franklin Street, Suite 1702<br />
+									Boston, MA 02110<br />
+									+1 (617) 555-0127
 								</li>
 								<li class="icon solid fa-envelope"><a href="mailto:contact@aldridgecounsel.com">contact@aldridgecounsel.com</a></li>
 								<li class="icon solid fa-clock">Weekdays, 8:30am to 6:00pm</li>
@@ -305,7 +291,7 @@
 					if (!f) return;
 					f.addEventListener('submit', function(e){
 						e.preventDefault();
-						alert('To get in touch with Aldridge Counsel, please email contact@aldridgecounsel.com. Replies typically come within one business day.');
+						alert('To get in touch with Aldridge Counsel, please email contact@aldridgecounsel.com or call +1 (617) 555-0127. Replies typically come within one business day.');
 					});
 				})();
 			</script>
